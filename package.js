@@ -34,7 +34,7 @@ Package.onUse(function(api) {
   api.export('discoveryManager', 'web.cordova');*/
 
   api.versionsFrom('1.1.0.2');
-  api.use(["cordovaplugin"]);
+  api.use(["com.connectsdk.cordovaplugin"]);
 
 //  api.versionsFrom("METEOR@0.9.2");
   api.addFiles('www/connectsdk.js', 'web.cordova');
