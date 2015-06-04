@@ -20,7 +20,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.use(["templating", "session", "ui", "blaze", "less", "reactive-var"]);
 //  api.versionsFrom("METEOR@0.9.2");
-  api.addFiles('www/ConnectSDK.js', 'web.cordova');
+  api.addFiles('connectsdk.js', 'web.cordova');
 });
 
 Package.onTest(function(api) {
