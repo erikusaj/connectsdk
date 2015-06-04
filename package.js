@@ -1,7 +1,7 @@
 
 Package.describe({
   name: 'erikusaj:connectsdk',
-  version: '0.0.1_1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: "DO NOT USE!  -developmet- ConnectSDK Cordova plugin package for Meteor.",
   // URL to the Git repository containing the source code for this package.
